@@ -4,7 +4,7 @@
     max-width: 1440px;
     text-decoration: none;
     list-style: none;
-    color: #7c7c7c;
+    color: #b1b0b0;
     font-size: 18px;
     font-family: "Bai Jamjuree", gerogia, sans-serif;
 
@@ -30,6 +30,11 @@
 .c-box__information{
     max-width:580px;
     margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.c-box__information-simple{
+    padding-bottom: 50px;
 }
 
 .c-box__info-box{    
@@ -44,17 +49,20 @@
     color: #ffffff;
     font-weight: bold;
     border-radius: 20px;   
-    margin: 0 auto; 
+    margin: 0 10px; 
     cursor: pointer;
+    
 }
 
 .c-box__button .c-box__link-download{
     color: white;
     font-size: 16px;
+    
 }
 
 .c-box__button-ios{
     background-color: #26bba5;
+    box-shadow:0 3px 0 #1b9f8a;
     transition: .1s;
 }
 
@@ -64,6 +72,7 @@
 
 .c-box__button-mac{
     background-color: #6174ff;
+    box-shadow:0 3px 0 #5161da;
     transition: .1s;
 }
 
@@ -71,5 +80,51 @@
     background-color: #8897fe;
 }
 
-/*Main*/
+/*plataform*/
+.c-box__products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+    flex-wrap: nowrap;
+}
 
+@media(max-width:375px){
+    .c-box__products{
+        flex-wrap: wrap;
+    }
+
+    .c-box__platform-image{
+        width: 100%;
+    }
+}
+
+.c-box__products{
+    flex: 1;
+}
+
+.c-box__platform-image{
+    margin-left: -40px;
+}
+
+.c-box__products-list{
+    
+    padding: 0 120px;
+   
+}
+.c-box__produts-list-title{
+    color: #4d545c;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.c-box__produts-list-desc{
+    margin-bottom: 60px;
+    
+}
+
+/*box img plataform*/
+.c-box__platform{
+    text-align: center;
+
+}
