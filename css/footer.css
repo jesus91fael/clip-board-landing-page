@@ -1,0 +1,39 @@
+.c-box__footer{
+    margin: 0 auto;
+    padding: 30px 80px;
+    background-color: #f5f6f8;
+}
+.c-box-footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;    
+}
+
+.c-box__footer_col{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.c-box__footer-social{
+    margin: 0 10px;
+}
+
+.c-box__footer-image{
+    max-width: 80px;
+}
+
+.footer__rede-social-logo:hover{
+    filter: invert(45%) sepia(100%) saturate(152%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+
+.c-box__footer-nav:hover{
+    color: #26bba4;
+}
+
+.c-box__list-nav{
+    display: inline-block;
+    min-width: 100px;
+    margin: 5px 10px;
+}

@@ -1,0 +1,78 @@
+/*plataform*/
+.c-box__products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+    flex-wrap: nowrap;
+}
+
+.c-box__products{
+    flex: 1;
+}
+
+.c-box__platform-image{
+    margin-left: -40px;
+}
+
+.c-box__products-list{
+    
+    padding: 0 120px;
+   
+}
+.c-box__produts-list-title{
+    color: #4d545c;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.c-box__produts-list-desc{
+    margin-bottom: 60px;
+    
+}
+
+/*box img plataform*/
+.c-box__platform{
+    text-align: center;
+
+}
+
+
+/*services*/
+.c-box__tools-services{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.c-box__tools-item{
+    margin-bottom: 40px;
+}
+
+.c-box-tools-title{
+    margin-bottom: 20px;
+    font-size: 24px;
+    color:#4d545c
+}
+
+.c-box__tools-item-desc{
+    flex: 1;
+    max-width: 300px;
+}
+
+/*clientes*/
+
+.c-box__client{
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.c-box__logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
