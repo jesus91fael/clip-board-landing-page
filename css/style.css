@@ -11,7 +11,7 @@
 }
 
 /*Header*/
-.header{
+.c-header{
     align-items: center;
     text-align: center;
     padding: 100px;
@@ -20,33 +20,25 @@
 
 /*box*/
 
-.titulo-box{
+.c-box__titulo{
     color: #4d545c;
     font-size: 36px;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
-.box-information{
+.c-box__information{
     max-width:580px;
     margin: 0 auto;
 }
 
-.info-txt{    
+.c-box__info-box{    
     align-items: center;
     text-align: center;
     margin-bottom: 40px;
 }
 
-.info-hero{    
-    align-items: center;
-    text-align: center;
-    margin-bottom: 40px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.button{    
+.c-box__button{    
     padding: 10px 20px;
     width: 150px;
     color: #ffffff;
@@ -56,26 +48,26 @@
     cursor: pointer;
 }
 
-.button a{
+.c-box__button .c-box__link-download{
     color: white;
     font-size: 16px;
 }
 
-.ios{
+.c-box__button-ios{
     background-color: #26bba5;
     transition: .1s;
 }
 
-.ios:hover{
+.c-box__button-ios:hover{
     background-color: #5dccbb;
 }
 
-.mac{
+.c-box__button-mac{
     background-color: #6174ff;
     transition: .1s;
 }
 
-.mac:hover{
+.c-box__button-mac:hover{
     background-color: #8897fe;
 }
 
