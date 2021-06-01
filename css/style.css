@@ -170,14 +170,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
 }
 
 .c-box__footer_col{
-    flex: 1;
     display: flex;
-    flex-wrap: wrap;    
+    flex: 1;
     align-items: center;
 }
 
@@ -199,9 +197,8 @@
 
 .c-box__list-nav{
     display: inline-block;
-    margin: 0;
-    overflow: hidden;
-    padding: 10px;
-    min-width: 90px;
+    min-width: 100px;
+    margin: 5px 10px;
+
 }
 
