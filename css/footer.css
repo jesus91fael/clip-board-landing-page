@@ -9,12 +9,18 @@
 }
 
 .c-box__footer_col{
-    display: flex;
-    flex: 1 2 2;
+    display: flex;    
+    flex: 1 2 auto;
+    justify-content: center;
     align-items: center;
     max-width: 500px;  
-    margin: 30px;
-    
+    margin: 0 auto; 
+    padding: 30px; 
+      
+}
+
+.c-box-footer-list{
+   margin: 0 auto;
 }
 
 .c-box__footer-social{
@@ -36,7 +42,8 @@
 }
 
 .c-box__footer-nav{
-    color: #4d545c; 
+    color: #4d545c;; 
+    
 }
 
 .c-box__footer-nav:hover{
