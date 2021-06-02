@@ -73,12 +73,12 @@
 }
 
 .c-box__tool-img{
-    align-items:flex-start;    
-    padding: 10px;
+    align-items:flex-start;          
 }
 
 .c-box__tools-item{
     margin: 10px;
+    min-height: 70px;  
 }
 
 .c-box-tools-title{
@@ -89,6 +89,7 @@
 
 .c-box__tools-item-desc{    
     max-width: 420px;
+    margin-bottom: 40px;
 }
 
 /*clientes*/
@@ -103,4 +104,13 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+.c-box__client-logo{
+    align-items: center;
+    align-self: center;
+    flex: 1;
+    margin: 40px;
 }
